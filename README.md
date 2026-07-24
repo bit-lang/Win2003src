@@ -50,7 +50,7 @@ You can modify your razzle shortcut (or execute the command manually inside C:\N
 - CkhKernel: Build 'checked' (testing) kernel/hal/ntdll when building 'free' bits.
 - no_opts: Disable binary optimization (useful for debugging, but will likely fail a full build since some code can't be built without optimization).
 - verbose: Enable verbose execution of the build process.
-- binaries_dir <basepath>: Specifies custom output directory (default is binaries, the suffix added after the dot is non-customizable).
+- binaries_dir [basepath]: Specifies custom output directory (default is binaries, the suffix added after the dot is non-customizable).
 
 For more options, see razzle.cmd /? for details.
 
