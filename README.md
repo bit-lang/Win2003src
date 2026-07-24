@@ -1,23 +1,26 @@
 ## the leaked source code of Windows Server 2003 / xp
 
-Source: Torrent Hash - 3d8b16242b56a3aafb8da7b5fc83ef993ebcf35b
+Source:
+Torrent Hash - 3d8b16242b56a3aafb8da7b5fc83ef993ebcf35b
 
 ---
 
-from https://github.com/tongzx/nt5src
-Sources:
+## from https://github.com/tongzx/nt5src
+
+### Sources:
 1. 4Chan thread: https://boards.4channel.org/g/thread/77894863/the-windows-xp-source-code-was-leaked-online
 2. MEGA 7zip and cabinet download: https://mega.nz/file/PdhxBSZD#w-O3C-BAMwE4E02qPn_fSdTivILcE8hzk9PeyoXg7wU
 
 ---
 
-from https://github.com/cynegeirus/windows-nt5
+## from https://github.com/cynegeirus/windows-nt5
 
 ### Pre-Installation Preparations
 
 1. Extract the source tree. In this guide, we will assume C:\NT.
 2. Remove the Read Only setting, including subfolders and files.
 3. Create a desktop shortcut for:
+
 ```bash
 %windir%\system32\cmd.exe /k C:\NT\tools\razzle.cmd free offline
 ```
@@ -77,7 +80,7 @@ The ISO file will be saved to {build-drive}\{build-tag}_{sku}.iso, unless [desti
 - You can also use the following command to generate a new build name quickly:
 
 ```bash
-    nmake set_builddate set_buildnum set_buildname -f makefil0
+nmake set_builddate set_buildnum set_buildname -f makefil0
 ```
 
 ### Timebomb (Optional)
